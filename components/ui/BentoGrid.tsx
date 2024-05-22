@@ -50,8 +50,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["MERN", "Next.js", "Typescript"];
-  const rightLists = ["Tailwindcss", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "NextJS", "NodeJS", "MongoDB"];
+  const rightLists = ["Tailwindcss", "Typescript", "ExpressJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -107,11 +107,6 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
-          </BackgroundGradientAnimation>
-        )}
 
         <div
           className={cn(
@@ -138,11 +133,11 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-1 md:gap-2 lg:gap-3">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-2 lg:px-1 py-2 px-1 text-xs lg:text-base opacity-50 
                   lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -150,12 +145,12 @@ export const BentoGridItem = ({
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-1 md:gap-2 lg:gap-3">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-2 lg:px-1 py-2 px-3 text-xs lg:text-base opacity-50 
                   lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -177,13 +172,6 @@ export const BentoGridItem = ({
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
-                <MagicButton
-                  title={copied ? "Email is Copied!" : "Copy my email address"}
-                  icon={<IoCopyOutline />}
-                  position="left"
-                  handleClick={handleCopy}
-                  otherClasses="!bg-[#161A31]"
-                />
               </div>
             </div>
           )}
