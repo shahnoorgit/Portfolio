@@ -3,6 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerator";
 import MagicBTN from "./ui/MagicBTN";
 import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -33,13 +34,13 @@ const Hero = () => {
             Hi, I&apos;m Shahnoor Mujawar, a Full-Stack Developer based in
             Bangalore.
           </p>
-          <div>
+          <Link href="#projects">
             <MagicBTN
               title="Show My Work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </div>
+          </Link>
         </div>
       </div>
     </div>
