@@ -1,8 +1,8 @@
+"use client";
 import { projects } from "@/Data";
-import React from "react";
+import Link from "next/link";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
-import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -14,8 +14,7 @@ const RecentProjects = () => {
       </h1>
       <div className=" flex flex-wrap gap-x-24 gap-y-1 mt-10 items-center justify-center">
         {projects.map((project) => (
-          <Link
-            href={project.link}
+          <div
             key={project.id}
             className=" lg:min-h-[32.5rem] -mb-20 sm:h-[42rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
@@ -59,7 +58,7 @@ const RecentProjects = () => {
                 </Link>
               </div>
             </PinContainer>
-          </Link>
+          </div>
         ))}
       </div>
     </div>
