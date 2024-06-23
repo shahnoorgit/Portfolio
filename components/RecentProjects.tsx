@@ -9,14 +9,14 @@ const RecentProjects = () => {
     <div className=" py-20" id="projects">
       <h1 className=" heading">
         {" "}
-        A small selection of {""}
-        <span className=" text-purple"> recent projects</span>
+        A Small Selection Of {""}
+        <span className=" text-purple"> Recent Projects</span>
       </h1>
-      <div className=" flex flex-wrap gap-x-24 gap-y-1 mt-10 items-center justify-center">
+      <div className=" flex flex-wrap gap-x-24 gap-y-1 md:gap-y-16 items-center justify-center">
         {projects.map((project) => (
           <div
             key={project.id}
-            className=" lg:min-h-[32.5rem] -mb-20 sm:h-[42rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className=" lg:min-h-[32.5rem] mt-24 -mb-20 sm:h-[42rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={project.link} href={project.link}>
               <div className=" relative flex justify-center items-center h-[30vh] sm:h-[40vh] sm:w-[570px] w-[80vw] overflow-hidden">

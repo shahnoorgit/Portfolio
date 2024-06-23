@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className=" py-20" id="testimonials">
+    <div className=" mb-32 mt-5 py-20" id="experience">
       <h1 className=" heading">
         {" "}
         My{""}

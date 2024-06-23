@@ -16,9 +16,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Clients />
         <Experience />
-        <Approch />
+        <Clients />
         <Footer />
       </div>
     </main>
