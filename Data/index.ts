@@ -76,7 +76,7 @@ export const projects = [
     title: "AethetixAI - SaaS AI Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/saasAI.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://aesthetixai.vercel.app/",
   },
   {
@@ -84,7 +84,7 @@ export const projects = [
     title: "DevChats- RealTime Chating webapp Using Sockets",
     des: "A RealTime Chating Fullstack WebApp Made using MERN stack and Socket Styled with Tailwindcss",
     img: "/project.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://devchats.onrender.com/",
   },
 
@@ -93,7 +93,7 @@ export const projects = [
     title: "RepoIT- a github alternative with amazing features ",
     des: "A feature-rich alternative to GitHub with seamless authentication, powerful search capabilities, and user interactions.",
     img: "/port3.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://repoit-github.onrender.com/",
   },
   {
@@ -101,7 +101,7 @@ export const projects = [
     title: "My3D Shirt - fullstack 3D shirt designing Platform",
     des: "An online 3D shirts designing platform with AI bot assistance and many more amazing features.",
     img: "/port4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
     link: "https://65d1bc1991a5a70f4eec9531--adorable-platypus-aa9ab8.netlify.app/",
   },
   {
@@ -109,7 +109,7 @@ export const projects = [
     title: "GenZ AI - fullstack Generative AI Platform",
     des: "A Fullstack Generative AI images building Platform with community share, Build Images With simple prompt!.",
     img: "/project5.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://65c739965afb41498450e9da--peppy-frangipane-096f75.netlify.app/",
   },
   {
@@ -117,7 +117,7 @@ export const projects = [
     title: "PromptShare -Community Based AI Prompts Sharing Platform",
     des: "Share your amazing AI prompts to our friendly AI prompt sharing community build with next14.",
     img: "/project6.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://prompt-share-azrhtd506-shahnoors-projects.vercel.app/",
   },
 ];
