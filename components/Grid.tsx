@@ -1,6 +1,5 @@
-import React from "react";
-import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/Data";
+import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 const Grid = () => {
   return (
@@ -12,6 +11,8 @@ const Grid = () => {
             key={i}
             title={item.title}
             description={item.description}
+            // remove icon prop
+            // remove original classname condition
             className={item.className}
             img={item.img}
             imgClassName={item.imgClassName}

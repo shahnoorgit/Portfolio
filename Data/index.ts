@@ -126,26 +126,30 @@ export const testimonials = [
   {
     quote:
       "he has demonstrated exceptional skills and significantly contributed to the organization. He has consistently displayed a strong work ethic, a positive attiude, and a willingness to learn. He was a valuable asset to our team, and we are confident he will contribute his skills to the growth and success of the organization he will be associated with.",
-    name: "Manisha Bhale",
+    name: "MANISHA BHALE",
     title: "CEO of Technifyworld Techno Solutions",
+    img: "/manisha.webp",
   },
   {
     quote:
       "Collaborating with shahnoor was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "oleksander Johnson",
-    title: "sr fullstack Developer Freelancer",
+    name: "HIDEKI OKAMURA",
+    title: "SR Fullstack Developer Freelancer",
+    img: "/olek.jpg",
   },
   {
     quote:
       "Working with shahnoor was great experience, he worked well and fully build the website for our company as contract freelancer. if you are looking for anyone who can deliver stuff quickly,then shahnoor should be your choice.",
-    name: "Siddhart Punekar",
-    title: "Founder of Chayking",
+    name: "HIADER NADAF",
+    title: "CO-Founder of Rideresale",
+    img: "/haider.jpg",
   },
   {
     quote:
       "Shahnoor has helped our organization to build website from mere Idea to mvp,he's skills and professionalism has contributed immensily to our company.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "ASHOK",
+    title: "Co-founder of Kitty-bees",
+    img: "/ashok.jpg",
   },
 ];
 
