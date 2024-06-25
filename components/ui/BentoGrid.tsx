@@ -50,8 +50,9 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "NextJS", "NodeJS", "MongoDB"];
-  const rightLists = ["Tailwindcss", "Typescript", "ExpressJS"];
+  const leftLists = ["NodeJS", "ReactJS", "Express", "MongoDB"];
+  const rightLists = ["Django", "Firebase", "NextJS"];
+  const middleLists = ["C", "Javascript", "TypeScript", "Python"];
 
   const [copied, setCopied] = useState(false);
   const handleCopy = () => {
@@ -121,9 +122,21 @@ export const BentoGridItem = ({
           {id === 2 && <GlobeDemo />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+            <div className="flex gap-1 p-1 lg:gap-2 -right-0 w-fit absolute lg:-right-0">
               <div className="flex flex-col gap-1 md:gap-2 lg:gap-3">
                 {leftLists.map((item, i) => (
+                  <span
+                    key={i}
+                    className="lg:py-2 lg:px-1 py-2 px-1 text-xs lg:text-base opacity-50 
+                lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-lg text-center bg-[#10132E]"></span>
+              </div>
+              <div className="flex flex-col gap-1 md:gap-2 lg:gap-3">
+                {middleLists.map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-2 lg:px-1 py-2 px-1 text-xs lg:text-base opacity-50 
