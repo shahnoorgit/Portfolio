@@ -1,3 +1,4 @@
+"use client";
 import { gridItems } from "@/Data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
